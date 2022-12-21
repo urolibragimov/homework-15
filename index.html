@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework-15</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="login">
+         <div class="login-left">
+             <img src="./images/study.svg" alt="hardworking">
+         </div>
+         <div class="login-right">
+            <p>MUHAMMAD AL-XORAZMIY NOMIDAGI
+                TOSHKENT AXBOROT TEXNOLOGIYALARI
+                UNIVERSITETI
+                </p>
+            <img src="./images/logo-md.png" alt="emblem">
+            <h3>LEARNING MANAGEMENT SYSTEM</h3>
+            <form action="https://lms.tuit.uz/auth/login" method="POST">
+                <input type="hidden" name="_token" value="VmfRmamCOSs2irxGiWKtIe1DC120SRgjIfKaVq3w">                        <div class="form-group text-left">
+                    <label class="login__label" for="login">Login</label>
+                    <input type="text" name="login" value="" class="form-control login__input" id="login" placeholder="Loginni kiriting">
+                </div>
+                <div class="form-group text-left">
+                    <label class="login__label" for="password">Parol</label>
+                    <div class="input-group">
+                        <input type="password" name="password" class="form-control login__input" id="password" placeholder="Parolni kiriting">
+                        <span class="input-group-btn">
+                            <button class="btn login__input form-control js-password-eye" type="button"><i class="fa fa-eye-slash"></i></button>
+                        </span>
+                    </div>
+                </div>
+                <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response" value="03AD1IbLAJ3EQXhRdqcn6HM_-i5t88os3UFUfAbTdvVlHewEF3VFPR__WTD1nN0ikGGYJPqIu7qbuB6T94UecQfESTTxPjcNGK6YYFYIFrZ1hHOguq0Z5KlCjrDtgBTje7PHgtEv9TKuBwZsrXFLdsr533GmY8ncyirtQCiz958HGpUkJrrbEUiiHfTb-R9XwXfGTC6DgN71i4nXG4mCq7KtyaVJ37RwqnTbJbRoEFAmdVV1WKmEpW5jMXCBsgnDkWTOE6fuURkcZKovLo0raLfWwB115UZeyvwVLhb3XIjoRxYcIaeQuRrSVeRW7Y6y2iUznEDPcT1FI0my9En8-g4vKPi3LjJnXchd05uvcn9QcQR8DE2ipn4-y3QudHLWzS9NimP1TlrCyEZDmlDMo6kFCovXuP6nqWMCqLsItPiW2wNzOVuEHufdq9KypP2JENENHBEsugnjqvi_mMAWjHM4MdFKpOhUfMoOw0GNWOEAeQUQ1qkmAY0hB9Hd2beCtmmoPGNDViLbVBSRE9_1gtFknLAXZa-L_bOw">
+                <button type="submit" class="btn btn-primary full-width" id="login-btn">Kirish</button><br>
+            </form>
+         </div>
+    </div>
+</body>
+</html>
